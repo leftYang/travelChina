@@ -1,0 +1,61 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+ul{ list-style:none}
+a{ text-decoration:none; color:#333;}
+body{ font-size:12px;}
+img{ border:none;}
+
+.left{ float:left;}
+.right{ float:right;}
+.clearFix:after{ content:"."; display:block; clear:both; font-size:0; height:0; overflow:hidden;}
+.clearFix{ zoom:1;}
+
+.mt{ margin-top:10px;}
+.mt1{ margin-top:5px;}
+.mt2{ margin-top:35px;}
+.mb{ margin-bottom:10px;}
+.mr{ margin-right:10px;}
+.mr2{ margin-right:50px;}
+.ml{ margin-left:10px;}
+
+.red{ color:#F00;}
+.orange{ color:#ff6600; font-size:14px; font-weight:bold;}
+.gray{ color:#999;}
+.pink{ color:#de389a;}
+.wrapper{ width:1000px; margin:0 auto;}
+
+
+/*top----------*/
+.top{ height:100px; padding-top:36px; border-bottom:#a3154e 4px solid;}
+.denglu{ margin-top:30px; font-size:24px; color:#5c514c;}
+
+
+.main{ width:1000px; height:480px; background:url(../images/landing/bg.png) no-repeat;}
+.landing{ width:350px; height:372px; margin-top:28px; padding:2px; border:#cecece 1px solid; background:#FFF;}
+.landing .bd{ height:344px; border:#ededed 4px solid; padding-left:36px; padding-top:20px;}
+
+.landing h2{ font-size:18px; color:#282828;}
+.landing form .long{ width:247px; height:39px; line-height:39px; margin-top:15px; padding-left:10px; border:none; background:url(../images/landing/long.png) no-repeat;}
+.landing form .short{ width:112px; height:39px; line-height:39px; margin-top:15px; padding-left:10px; border:none; background:url(../images/landing/short.png) no-repeat;}
+.landing form input.deng{ width:75px; height:32px; margin-right:10px; margin-top:20px; border:none; background:url(../images/landing/denglu.png) no-repeat;}
+.landing div.clearFix a{ color:#06F;}
+
+
+
+/*bao---------------------*/
+.bao{ width:988px; height:58px; padding-top:10px; padding-left:10px;border:#eeeeee 1px solid; background:#fbfbfb;}
+.bao p{ padding:0 36px;}
+
+
+/*copy-----------------*/
+.copy p{ text-align:center; margin:15px 0; color:#706e6f;}
+.copy li{ display:inline; float:left; margin-right:8px;}
+.copy li.current{ margin-left:122px;}
+.copy img{ border:#e5e5e5 1px solid;}
+
+/*bottomnav*/
+.bottomNav{ height:40px; line-height:40px; margin:10px 0; background:#a0a0a0;}
+.bottomNav li{ float:left;}
+.bottomNav li a{ float:left; padding:0 45px; font-size:14px; font-weight:bold; color:#fff;}                     
+.bottomNav li a:hover{ float:left; background:#000; color:#FFF ;}
+

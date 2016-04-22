@@ -1,0 +1,71 @@
+/* CSS Document */
+
+.mb1{ margin-bottom:7px;}
+.mr1{ margin-right:45px;}
+
+.orange1{ color:#ff6600; font-size:14px; font-weight:bold; font-family:Georgia, "Times New Roman", Times, serif;}
+.orange2{ color:#ff6600;}
+.orange3{color:#ff6600; font-size:24px; font-weight:bold;}
+.gray{ color:#999;}
+.black{ color:#000; font-size:14px; font-weight:bold;font-family:Georgia, "Times New Roman", Times, serif;}
+.black1{ font-size:12px; font-weight:bold;}
+
+.gradation{ height:40px; line-height:40px;}
+
+/*sale  --------------*/
+.sale{ width:230px; height:800px; padding:15px 10px 0; background:#f5f5f5;}
+.sale div{ height:180px; border-bottom:dotted #ccc 1px;}
+.sale dd{ width:80px; line-height:18px;}
+.sale a:hover{ text-decoration:underline;}
+
+
+/*list  --------------*/
+.list{ width:932px; height:152px; padding:24px; background:#f5f5f5;}
+.list ul{ height:45px;}
+.list li{ margin-right:10px;}
+.list li a{ padding:2px 5px;}
+.list li a:hover,.list li.current a{ float:left; padding:2px 5px; background:#6fbee4; color:#FFF;}
+.list li h3{ font-size:12px; font-weight:bold; color:#666;}
+
+/*condition  --------------*/
+.listBottom{ width:942px; padding:15px; border:#f5f5f5 4px solid;}
+.condition form h3{ font-size:14px; color:#666;}
+.condition form input{ width:81px; height:27px; border:none; background:url(../images/searchResult/sum1.png) no-repeat; }
+
+/*condition  scenery--------------*/
+.scenery_1{ width:942px; height:120px; padding:45px 0; border-bottom:#CCC 1px solid;}
+.scenery_1 dl{ width:160px; height:120px;}
+.scenery_1 dl dt{ margin-bottom:20px;}
+
+.scenery_1 ul{ width:600px; height:140px;}
+.scenery_1 ul li{ height:26px;}
+.scenery_1 ul li.first{ font-size:14px; font-weight:bold;}
+.scenery_1 ul li.clearFix{ width:650px; height:26px;}
+
+.scenery_1 form{ padding-top:16px;} 
+.scenery_1 form p{font-size:14px; color:#333; font-family:'微软雅黑';}
+.scenery_1 form input{ width:90px; height:30px; background:url(../images/searchResult/ckxq.png) no-repeat;}
+
+/*condition  flip--------------*/
+.flip{height:20px; padding:10px 260px 0;}
+.flip li{margin-right:8px;  line-height:20px;}
+.flip li a{ float:left; padding:0 5px; border:#CCC 1px solid;} 
+.flip li a:hover,.flip li.current a{ background:#4aa8e6; color:#fff;}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

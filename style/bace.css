@@ -1,0 +1,98 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+ul{ list-style:none}
+a{ text-decoration:none; color:#333;}
+body{ font-size:12px;}
+img{ border:none;}
+
+/*float----------*/
+.left{ float:left;}
+.right{ float:right;}
+.clearFix:after{ content:"."; display:block; clear:both; font-size:0; height:0; overflow:hidden;}
+.clearFix{ zoom:1;}
+
+/*margin---------*/
+.mt{ margin-top:10px;}
+.mb{ margin-bottom:10px;}
+.mr{ margin-right:10px;}
+.ml{ margin-left:10px;}
+
+/*color----------*/
+.red{ color:#F00;}
+.orange{ color:#ff6600; font-size:14px; font-weight:bold;}
+.gray{ color:#999;}
+.blue{ color:#359bdc;}
+.pink{ color:#de389a;}
+.green{ color:#093;}
+.wrapper{ width:1240px; margin:0 auto;}
+
+
+.top .p1,.top .p2,.top .p3,.sona,.sanjiao,.subnavBt li,.top2 ul.theme li{ background:url(../images/all.png) no-repeat;}
+
+
+.bgTop{ background:url(../images/bg1.png) center no-repeat ; background-size:cover; }
+
+.top{ height:40px; line-height:40px;}
+.top li{ float:left;}
+.top li.sep{ padding:0 10px;}
+
+.top .p1{ background-position:0 -116px; text-indent:26px;}
+.top .p2{ background-position:0 -159px; margin-right:38px; text-indent:31px;}
+.top .p3{ background-position:0 -208px; margin-right:38px; text-indent:31px;}
+
+.mid{ height:109px; overflow:hidden;}
+.logo{ width:200px; height:80px; margin-top:11px; margin-left:10px;}
+.search{ margin-top:15px;}
+.searchBk{ width:317px; height:45px; border:none; background:url(../images/searchkuang.png) no-repeat;}
+.button{ width:57px; height:45px; border:none; background:url(../images/search2.png) no-repeat;}
+.mid form{ height:45px;}
+.mid div.search{ width:374px; margin-left:200px;}
+.mid div ul{margin-top:15px;}
+.mid li{ float:left; margin-right:5px;}
+.mid .right{ margin-top:9px; margin-right:6px;}
+.mid .right p a{ display:block; margin-top:2px;}
+
+.nav{  height:53px; line-height:63px; border-top:#292929 6px solid; background:#292929; padding-left:328px; _overflow:hidden; }
+
+.nav li { position:relative; float:left; width:100px; height:58px;margin-right:20px;}
+.nav li a{ float:left; width:100px; height:58px;  font-size:14px; font-weight:bold; text-align:center; color:#fff;}
+.nav li a:hover{ position:absolute; top:0; left:0; width:100px; height:58px; background:url(../images/index/abg.png) no-repeat;}
+
+.subnav1{ height:40px; margin-top: 10px; background:#f7f7f7; z-index:1000;}
+.subnav1 .wrapper{ position:relative;}
+.subnav1 a{ margin-left:10px;}
+.subnav1 a.right{ margin-top:8px;}
+
+
+/*bao---------------*/
+.bao{ width:1238px; height:60px; margin-top:15px; margin-bottom:15px; padding-top:14px; background:#fbfbfb; border:#eeeeee 1px solid;}
+.bao a{ float:left; margin-left:10px;}
+
+/*bg1-----------------*/
+.bg1{ width:1440px; height:340px;background:url(../images/index/bg1.png) no-repeat; overflow:hidden;}
+
+
+
+.footer{ height:160px; margin-top:15px;}
+.footer ul.wrapper{ width:1240px; height:140px; padding-top:20px; padding-left:20px;}
+.footer ul.wrapper li.left{ width:248px;}
+.footer li li a{ color:#676767; line-height:20px;}
+.footer li li h3{ font-size:14px; font-weight:bold; color:#6d6c6a; line-height:30px;}
+
+
+/*copy-----------------*/
+.copy p{ text-align:center; margin:15px 0; color:#706e6f;}
+.copy ul{ padding-left:232px;}
+.copy li{ display:inline; float:left; margin-right:8px;}
+.copy li.current{ margin-left:122px;}
+.copy img{ border:#e5e5e5 1px solid;}
+
+/*bottomnav*/
+.bottomNav{ height:40px; line-height:40px; margin:10px 0; background:#a0a0a0;}
+.bottomNav li{ float:left;}
+.bottomNav li a{ float:left; padding:0 45px; font-size:14px; font-weight:bold; color:#fff;}                     
+.bottomNav li a:hover{ float:left; background:#000; color:#FFF;}
+
+
+
+

@@ -1,0 +1,67 @@
+/* CSS Document */
+.gray1{ color:#979191;}
+.red1{ color:#F36; font-size:18px;}
+
+.mr1{ margin-right:15px;}
+.mr2{ margin-right:50px;}
+.mr3{ margin-right:32px;}
+
+/*detailsTop--------------- */
+.detailsTop{ width:1196px; padding:20px; border:#f3f3f3 2px solid;}
+.detailsTop h2{ height:40px; font-size:24px; color:#F06; font-family:'微软雅黑';}
+.detailsTop p{ height:26px; font-size:14px; font-family:'宋体';}
+.detailsTop div.left{ width:660px;}
+.detailsTop div.right{ width:526px;}
+
+.price{ width:454px; height:170px;padding:20px 36px;background:#f5f5f5;}
+.price li{ height:54px; line-height:40px;}
+.price p{font-size:12px;}
+.price p.mr2 span{ font-size:26px;}
+.price form select,.title form select{ width:170px; height:30px; font-size:14px; line-height:30px;}
+.price form input,.title form input,.detailsMid div.left li form input{ width:80px; height:38px; border:none; background:url(../images/details/button.png) 0 7px no-repeat;}
+.price form input:hover,.title form input:hover,.detailsMid div.left li form input:hover{ cursor:pointer;}
+
+.jieshao li{ border-bottom:#666 1px solid; padding:10px 0;}
+.jieshao li h3{ height:30px; font-size:14px; font-weight:bold; color:#333;}
+.jieshao li p{ font-size:12px;font-family:'宋体'; color:#666;}
+.jieshao li.last{ border:none;}
+
+/*detailsMid---------------*/
+.detailsMid{ width:1196px; padding:0 20px; height:1000px; border:#f3f3f3 2px solid; border-top:none;}
+.title{ background:#b8b8b8; margin-top:40px;}
+.title h3{ width:240px; height:45px; background:url(../images/details/yuding.png) no-repeat;}
+
+
+.detailsMid div.left li{ height:40px; line-height:40px;}
+.detailsMid div.left li a{ font-size:16px; font-weight:bold;}
+.detailsMid div.left li a:hover{ color:#ff6600; border-bottom:#ff6600 2px solid;}
+.detailsMid table{ width:660px; height:520px; font-size:18px;}
+.detailsMid table thead td{ height:40px; font-weight:bold; text-align:center; background:#cccccc;}
+.detailsMid table tbody td{ font-weight:bold; text-align:center; background:#efefef;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
